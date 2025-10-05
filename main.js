@@ -12,4 +12,6 @@ const bloco = document.createElement("div")
 //cria um span que mostra o texto da tarefa
 const novaTarefa = document.createElement("span")
 
+//texto do span como texto digitado
+novaTarefa.textContent = valor;
 }
