@@ -38,7 +38,7 @@ input.value = ""
 
 // usando enter
 document.getElementById("texto").addEventListener("keydown", function(event) {
-if (event.key ==="Enter"){
+if (event.key ==="enter"){
     addTarefa();
 }
 });
