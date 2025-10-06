@@ -41,4 +41,4 @@ document.getElementById("texto").addEventListener("keydown", function(event) {
 if (event.key ==="Enter"){
     addTarefa();
 }
-})
+});
