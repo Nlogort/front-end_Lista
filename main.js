@@ -35,3 +35,10 @@ document.getElementById("tarefas").appendChild(bloco);
 //limpa input
 input.value = ""
 }
+
+// usando enter
+document.getElementById("texto").addEventListener("keydown", function(event) {
+if (event.key ==="Enter"){
+    addTarefa();
+}
+})
